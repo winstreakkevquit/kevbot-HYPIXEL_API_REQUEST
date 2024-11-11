@@ -1,0 +1,23 @@
+{
+  "name": "bedwars-stats-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot to fetch Bedwars stats from Hypixel API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "web": "node webserver.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "minecraft-server-util": "^5.2.21"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "author": "kevquit",
+  "license": "ISC"
+}
